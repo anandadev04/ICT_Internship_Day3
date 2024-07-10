@@ -7,16 +7,22 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-function createData(Name, Department, Semester) {
-    return { Name, Department, Semester};
-}
-  
-const rows = [
-    createData('Anandadev',"CSE AI","S4"),
-    createData('Aynamfathima',"CSE AI","S4"),
-    createData('Aswin',"CSE AI","S3"),
-    createData('Aparna G Raj',"CSE AI","S2"),
-
+let rows = [    
+    {
+        Name:"Anandadev",
+        Department:"CSE AI",
+        Semester:"S4"
+    },
+    {
+        Name:"Aynamfathima",
+        Department:"CSE AI",
+        Semester:"S5"
+    },
+    {
+        Name:"Aswin",
+        Department:"Medical",
+        Semester:"S2"
+    }
 ];
 const Records = () => {
   return (
